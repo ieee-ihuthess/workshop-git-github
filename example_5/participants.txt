@@ -1,0 +1,4 @@
+Οι συμμετέχοντες του Workshop: "Συνεργασία και συνεισφορά μέσω του Git και GitHub"
+
+      Όνομα                              Email
+Πετρετζίκης Πέτρος                petrospetre@gmail.com
