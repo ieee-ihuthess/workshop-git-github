@@ -8,9 +8,3 @@ Workshop: "Συνεργασία και συνεισφορά μέσω Git και 
 ## Presentation
 [Slides](http://slides.com/ieeeteithe/deck-2-2#/)
 
-## Basic Git Commands
-
-- **Initialiaze**
-```
-git init
-```
