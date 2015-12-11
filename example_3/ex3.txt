@@ -11,5 +11,5 @@ Workshop: "Συνεργασία και Συνεισφορά μέσω Git και 
 6. Κάνουμε αλλαγές στα μαθήματα, προσθέτοντας και αφαιρόντας, κατευθύνσεις?? .
 7. Κάνουμε git add ps5.txt.
 8. git commit -m "Add ps5.txt".
-9. git checkout master και git merge.
-10. Tέλος κάνουμε git push.
+9. git checkout master και git merge branch-name (το όνομα του branch που φτιάξαμε).
+
