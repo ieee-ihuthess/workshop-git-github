@@ -1,5 +1,5 @@
 Workshop: "Συνεργασία και Συνεισφορά μέσω Git και GitHub"
-Άσκηση 4η - Participants's List
+Άσκηση 4η - Δημιουργία GitHub Repository
 
 Περίληψη: Σε αυτή την άσκηση θα κάνουμε το πρώτο μας repository στο GitHub, θα δημιουργήσσυμε νέο branch, θα ανοίξουμε pull request και θα κάνουμε merge στο master.
 
