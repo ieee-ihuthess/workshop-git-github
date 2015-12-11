@@ -8,3 +8,7 @@ Workshop: "Συνεργασία και συνεισφορά μέσω Git και 
 ## Presentation
 [Slides](http://slides.com/ieeeteithe/deck-2-2#/)
 
+## Presenters
+- [Άνι](https://github.com/sortingbubbles)
+- [Πέτρος](https://github.com/peterpetre)
+
