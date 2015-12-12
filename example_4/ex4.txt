@@ -3,8 +3,6 @@ Workshop: "Συνεργασία και Συνεισφορά μέσω Git και 
 
 Περίληψη: Σε αυτή την άσκηση θα κάνουμε το πρώτο μας repository στο GitHub, θα δημιουργήσσυμε νέο branch, θα ανοίξουμε pull request και θα κάνουμε merge στο master.
 
-1ος Τρόπος (Git Command-line)
-
 1. Ανοίγουμε την σελίδα του GitHub και κάνουμε είσοδο.
 2. Δημιουργόυμε το πρώτο μας repository. New Repository.
 3. Στο terminal γράφουμε την εντολή git init repo-name για να δημιουργήσουμε νέο τοπικό repository.
@@ -14,5 +12,3 @@ Workshop: "Συνεργασία και Συνεισφορά μέσω Git και 
 7. Κάνουμε το πρώτο μας commit με την εντολή git commit -m "first commit".
 8. Στην συνέχεια θα προσθέσουμε remote origin του repository μας στο GitHub με την εντολή git remote add origin https://....git.
 9. Και τέλος κάνουμε push -u origin master.
-
-2os Τρόπος (Με το γραφικό περιβάλλον του GitHub)
