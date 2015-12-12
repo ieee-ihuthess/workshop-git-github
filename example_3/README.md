@@ -1,3 +1,3 @@
-## Δείτε πως μπορούμε να φτιάξουμε Git Remote Repository στον Aeto
+## Δείτε πως μπορούμε να φτιάξουμε ένα Git Remote Repository στον aeto.it.teithe.gr
 
-[Εδώ!](https://github.com/anselal/aetos.it.teithe.gr/wiki/Git-Server)
+[/anselal/aetos.it.teithe.gr/wiki/Git-Server](https://github.com/anselal/aetos.it.teithe.gr/wiki/Git-Server)
