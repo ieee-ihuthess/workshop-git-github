@@ -12,4 +12,5 @@
 7. Κάνουμε `git add ps5.txt`
 8. `git commit -m "Add ps5.txt"`
 9. `git checkout master` και `git merge branch-name` (το όνομα του branch που φτιάξαμε).
+10. `git push`
 
