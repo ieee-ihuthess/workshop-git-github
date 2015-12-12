@@ -4,7 +4,7 @@
 1. Ανοίγουμε το τερματικό και εκτελούμε την εντολή `git init example_2` για να δημιουργήσουμε κατευθείαν το φάκελο και το repository
 2. Μπαίνουμε στο φάκελο με την εντολή `cd example_2`
 3. Δημιουργούμε ένα αρχείο μέσα στο φάκελο (πχ ratings.txt)
-4. Το κάνουμε add στο staging mode με την εντολή `git add ratings.txt`
+4. Το κάνουμε add στο staging mode με την εντολή `git add ratings.txt` και κάνουμε commit με την εντολή `commit -m "add file"`
 5. Πληκτρολογούμε την έντολή `git branch`
 6. Φτιάχνουμε ένα νέο branch με το όνομα firstratings με την εντολή `git branch firstratings`
 7. Ξαναπληκτρολογούμε την εντολή `git branch` για να δούμε το νέο branch που δημιουργήσαμε
