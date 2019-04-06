@@ -28,3 +28,18 @@
 15. Γράφουμε `git log` και βλέπουμε ότι όντως έχουμε 2 commits.
 16. Για να οριστικοποιήσουμε τις αλλαγές μας, πρέπει να τις "μεταφέρουμε" στο master branch. Γράφουμε `git merge new_branch`.
 17. Με την εντολή `git log` μπορούμε να δούμε ότι οι αλλαγές που είχαμε κάνει στο new_branch είναι πλέον διαθέσημες και στο master.
+
+###### Tο πρώτο ...conflict
+18. Δημιουργούμε ένα καινούριο branch με `git branch feature` και `git checkout feature` (ή `git checkout -b feature` για συντομία).
+19. Αλλάζουμε την τελευταία γραμμή από το αρχείο todolist.txt.
+20. Κάνουμε commit τις αλλαγές μας με `git add . ` και `git commit -m "Update my last task"` (ή `git commit -am "Update my last task"`).
+21. Πάμε στο master branch με `git checkout master`.
+22. Προσθέτουμε ένα task στο todolist.txt
+23. Κάνουμε commit τις αλλαγές μας με `git add . ` και `git commit -m "Yet another task."` (ή `git commit -am "Yet another task."`).
+24. θέλουμε να κάνουμε μόνιμες τις αλλαγές από το branch. Γράφουμε την εντολή `git merge feature`.
+25. Βλέπουμε πως έχουμε μήνυμα που αναφέρει κάποιο "conflict". Πρέπει να λυθεί.
+26. Διαμορφώνουμε το αρχείο έτσι όπως θέλουμε να είναι η τελική του μορφή.
+27. Γράφουμε `git add . ` και `git commit`.
+> Αν ανοίξει ο vi, πρέπει να πατήσουμε `:` και στην συνέχεια `wq` και "Enter" ώστε να φύγουμε από αυτό το περιβάλλον.
+
+28. Πατάμε `git log` και βλέπουμε το αποτέλεσμα.
