@@ -29,6 +29,7 @@
 12. Θέλουμε να κάνουμε κάποια αλλαγή στο repository. Για να το κάνουμε αυτό, καλό θα ήταν να το κάνουμε σε ένα καινούριο branch.
 13. Γράφουμε `git branch add_my_name` και `git checkout add_my_name` (ή `git checkout -b add_my_name` για συντομία).
 14. Κάνουμε ότι αλλαγή χρειάζεται.
+> Στο δικό μας project, πρέπει να πάμε στο index.html και να αλλάξουμε την γραμμή 60.
 15. Κάνουμε commit τις αλλγές μας με `git add .` και `git commit -m "Write a message"`.
 
 
