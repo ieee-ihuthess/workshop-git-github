@@ -3,7 +3,8 @@ Introduction to git/github and contribution to open source.
 
 Handy links:
 - slides: // TODO: Add link
-- test project: // TODO: Add link
+- test project: [https://github.com/ieee-ateith-sb/git_github_101](https://github.com/ieee-ateith-sb/git_github_101)
+- page: [https://ieee-ateith-sb.github.io/git_github_101/](https://ieee-ateith-sb.github.io/git_github_101/)
 
 
 ## Abstract
