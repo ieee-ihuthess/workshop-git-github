@@ -5,23 +5,25 @@
 
 ###### Δημιουργία λογαριασμού στο GitHub.
 1. Πηγαίνουμε στο github και δημιουργούμε ένα λογαριασμό.
-2. Πηγαίνουμε στο repository που θέλουμε να συνεισφέρουμε. Για την άσκηση θα χρησιμοποιήσουμε αυτό:
+2. Πηγαίνουμε στο repository που θέλουμε να συνεισφέρουμε. Για την άσκηση θα χρησιμοποιήσουμε αυτό: [https://github.com/ieee-ateith-sb/git_github_101](https://github.com/ieee-ateith-sb/git_github_101)
 3. Πατάμε το κουμπί "Fork". Αυτό θα αντιγράψει το repository σε ένα καινούριο που έχουμε δικαίωμα εγραφής.
 
 ###### Αντιγραφή repository
 4. Αντιγράφουμε το url του repository (χρησιμοποιώντας https).
 5. Ανοίγουμε terminal, δημιουργούμε ένα κατάλογο για το workshop (αν δεν έχουμε ήδη) και πηγαίνουμε σε αυτόν.
 6. Πατάμε την εντολή `git clone URL`
-> Έστω ότι to url είανι https://github.com/ieee-ateith-sb/workshop-git-github.git, η εντολή είναι `git clone https://github.com/ieee-ateith-sb/workshop-git-github.git`.
+> Έστω ότι to URL είανι https://github.com/USER_NAME/git_github_101, η εντολή είναι `git clone https://github.com/USER_NAME/git_github_101`.
 
 7. Με την εντολή `ls` βλέπουμε ότι έχει δημιουργιθεί ένας κατάλογος. Αυτός ο κατάλογος ειναι ένα τοπικό αντίγραφο του repository. (με `git log` μπορούμε να δούμε τι έχει γίνει σε αυτό το repository μέχρι τώρα).
 
 
 ###### Προσθήκη remote repository.
 8. Για να μπορούμε να ενημερώνουμε το τοπικό μας repository με τις αλλαγές των υπολοίπων, πρέπει να ορίσουμε το κοινό online repository στο τοπικό μας.
-9. Γράφουμε `git remote -v` για να δούμε τα remote repositories.
+9. Γράφουμε `git remote -v` για να δούμε τα remote repositories, πρέπει να υπάρχουν 2 εγγραφές για το origin.
 10. Γράφουμε `git remote add upstream LINK` για εγγράψουμε το καινούριο repository.
-11. Γράφουμε `git remote -v` για να δούμε ότι υπάρχει το νέο repo.
+>  `git remote add upstream https://github.com/ieee-ateith-sb/git_github_101`
+
+11. Γράφουμε `git remote -v` για να δούμε ότι υπάρχει το νέο repo. Πρέπει να υπάρχουν 4 εγγραφές (2 orifin και 2 upstream).
 
 ###### Πραγματοποίηση αλλαγής
 12. Θέλουμε να κάνουμε κάποια αλλαγή στο repository. Για να το κάνουμε αυτό, καλό θα ήταν να το κάνουμε σε ένα καινούριο branch.
